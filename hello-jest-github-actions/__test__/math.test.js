@@ -1,5 +1,5 @@
-const { add, subtract, multiply } = require("../math");
-
+const { add, subtract, multiply } = require("../../math/main");
+// const { add, subtract, multiply } = require("../math/main");
 describe("simple arithmetic", () => {
   describe("addition", () => {
     test("expect 2 + 3 = 5", () => {
